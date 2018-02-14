@@ -1,0 +1,15 @@
+{
+  "name": "babel-plugin-expo-web",
+  "version": "0.1.0",
+  "description": "Babel plugin for Expo for Web",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-plugin-tester": "^5.0.0"
+  },
+  "author": "Ron Arts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raarts/expo-web.git"
+  }
+}
