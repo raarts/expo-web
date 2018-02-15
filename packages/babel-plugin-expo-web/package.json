@@ -1,5 +1,5 @@
 {
-  "name": "@raarts/babel-plugin-expo-web",
+  "name": "babel-plugin-expo-web",
   "description": "Babel plugin for Expo for Web",
   "main": "index.js",
   "devDependencies": {
@@ -11,5 +11,5 @@
     "type": "git",
     "url": "git://github.com/raarts/expo-web.git"
   },
-  "version": "--skip-git"
+  "version": "0.0.1"
 }

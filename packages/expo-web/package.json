@@ -1,5 +1,5 @@
 {
-  "name": "@raarts/expo-web",
+  "name": "expo-web",
   "description": "Expo for Web",
   "main": "dist/index.js",
   "files": [
@@ -8,10 +8,6 @@
     "src",
     "!**/__tests__"
   ],
-  "dependencies": {
-    "react-native": "^0.53.0",
-    "react-native-vector-icons": "^4.5.0"
-  },
   "peerDependencies": {
     "react": "16.x.x",
     "react-dom": "16.x.x"
@@ -32,5 +28,5 @@
     "expo",
     "web"
   ],
-  "version": "--skip-git"
+  "version": "0.0.1"
 }

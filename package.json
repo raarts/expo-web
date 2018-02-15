@@ -50,6 +50,8 @@
     "prettier": "^1.8.2",
     "raf": "^3.4.0",
     "react": "^16.2.0",
+    "react-native": "^0.53.0",
+    "react-native-vector-icons": "^4.5.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0"
   },
@@ -70,5 +72,5 @@
   },
   "author": "Ron Arts",
   "license": "BSD-3-Clause",
-  "version": "--skip-git"
+  "version": "0.0.1"
 }
