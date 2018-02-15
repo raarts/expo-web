@@ -1,0 +1,16 @@
+[version]
+^0.63.0
+
+[ignore]
+<PROJECT_ROOT>/.*/__tests__/.*
+<PROJECT_ROOT>/packages/.*/dist/.*
+<PROJECT_ROOT>/website/.*
+.*/node_modules/babel-plugin-transform-react-remove-prop-types/*
+
+[include]
+
+[libs]
+<PROJECT_ROOT>/types
+
+[options]
+

@@ -1,6 +1,5 @@
 {
   "private": true,
-  "version": "0.1.0",
   "name": "expo-web-monorepo",
   "scripts": {
     "clean": "rm -rf ./packages/*/dist",
@@ -19,7 +18,7 @@
     "prerelease": "yarn test && yarn compile",
     "release": "node ./scripts/release/publish.js",
     "postrelease": "yarn website:release && yarn benchmarks:release",
-    "test": "yarn flow && yarn lint:check && yarn jest"
+    "test": "yarn flow && yarn lint:check"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
