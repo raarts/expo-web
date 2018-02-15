@@ -31,5 +31,6 @@
     "react-native-web",
     "expo",
     "web"
-  ]
+  ],
+  "version": "--skip-git"
 }

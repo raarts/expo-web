@@ -69,5 +69,6 @@
     "singleQuote": true
   },
   "author": "Ron Arts",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "version": "--skip-git"
 }
