@@ -9,7 +9,7 @@ const Constants = {
     privacy: 'public',
     version: '1.0.0',
     orientation: 'landscape',
-    primaryColor: '',
+    primaryColor: '#000000',
     splash: {
       image: './src/assets/images/splash.png',
       backgroundColor: '#ffffff',
