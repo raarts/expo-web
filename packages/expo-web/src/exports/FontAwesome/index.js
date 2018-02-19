@@ -1,9 +1,9 @@
 import React from 'react';
-import Icon from 'react-native-vector-icons/dist/FontAweSome';
-import iconFont from 'react-native-vector-icons/Fonts/FontAweSome.ttf';
+import Icon from 'react-native-vector-icons/dist/FontAwesome';
+import iconFont from 'react-native-vector-icons/Fonts/FontAwesome.ttf';
 const iconFontStyles = `@font-face {
   src: url(${iconFont});
-  font-family: FontAweSome;
+  font-family: FontAwesome;
 }`;
 
 // Create stylesheet
@@ -18,7 +18,7 @@ if (style.styleSheet) {
 // Inject stylesheet
 document.head.appendChild(style);
 
-export default class FontAweSome extends React.Component {
+export default class FontAwesome extends React.Component {
   render() {
     return <Icon {...this.props} />;
   }
