@@ -7,7 +7,7 @@ import Ionicons from './exports/Ionicons';
 import Entypo from './exports/Entypo';
 import EvilIcons from './exports/EvilIcons';
 import Feather from './exports/Feather';
-import FontAweSome from './exports/FontAweSome';
+import FontAwesome from './exports/FontAwesome';
 import Foundation from './exports/Foundation';
 import MaterialCommunityIcons from './exports/MaterialCommunityIcons';
 import Octicons from './exports/Octicons';
@@ -16,7 +16,7 @@ import Zocial from './exports/Zocial';
 import Constants from './exports/Constants';
 import Permissions from './exports/Permissions';
 import Notifications from './exports/Notifications';
-import WebBrowser from './exports/webBrowser';
+import WebBrowser from './exports/WebBrowser';
 
 export {
   DeviceInfo,
@@ -27,7 +27,7 @@ export {
   Entypo,
   EvilIcons,
   Feather,
-  FontAweSome,
+  FontAwesome,
   Foundation,
   MaterialCommunityIcons,
   Octicons,
