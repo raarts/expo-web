@@ -71,5 +71,6 @@
     "singleQuote": true
   },
   "author": "Ron Arts",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "version": "0.0.5"
 }

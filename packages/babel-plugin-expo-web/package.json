@@ -10,5 +10,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/raarts/expo-web.git"
-  }
+  },
+  "version": "0.0.5"
 }
