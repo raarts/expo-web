@@ -1,29 +1,5 @@
 import parser from 'ua-parser-js';
-const ua = parser.getResult();
-
-// {
-//   ua: "",
-//   browser: {
-//     name: "",
-//     version: ""
-//   },
-//   engine: {
-//     name: "",
-//     version: ""
-//   },
-//   os: {
-//     name: "",
-//     version: ""
-//   },
-//   device: {
-//     model: "",
-//     type: "",
-//     vendor: ""
-//   },
-//   cpu: {
-//     architecture: ""
-//   }
-// }
+const ua = parser(navigator.userAgent);
 
 const Constants = {
   statusBarHeight: 0,
@@ -47,17 +23,8 @@ const Constants = {
     }
   },
   platform: {
-    web: {
-      buildNumber : ua.browser.version,
-      model: ua.device.model,
-      type: ua.device.type,
-      vendor: ua.device.vendor,
-      platform : ua.cpu.architecture,
-      os: ua.os.name,
-      systemVersion : ua.os.version,
-      userInterfaceIdiom : 'web'
-    },
-    statusBarHeight: 0,
+    web: ua,
+    statusBarHeight: 0
   }
 };
 
