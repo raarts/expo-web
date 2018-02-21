@@ -8,6 +8,9 @@
     "src",
     "!**/__tests__"
   ],
+  "dependencies": {
+    "ua-parser-js": "^0.7.17"
+  },
   "peerDependencies": {
     "react": "16.x.x",
     "react-dom": "16.x.x"
@@ -28,5 +31,5 @@
     "expo",
     "web"
   ],
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
