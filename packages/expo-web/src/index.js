@@ -16,6 +16,7 @@ import Zocial from './exports/Zocial';
 import Constants from './exports/Constants';
 import Permissions from './exports/Permissions';
 import Notifications from './exports/Notifications';
+import Util from './exports/Util';
 import WebBrowser from './exports/WebBrowser';
 
 export {
@@ -36,5 +37,6 @@ export {
   Constants,
   Permissions,
   Notifications,
+  Util,
   WebBrowser
 };

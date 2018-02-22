@@ -9,6 +9,7 @@
     "!**/__tests__"
   ],
   "dependencies": {
+    "moment": "^2.20.1",
     "ua-parser-js": "^0.7.17"
   },
   "peerDependencies": {
