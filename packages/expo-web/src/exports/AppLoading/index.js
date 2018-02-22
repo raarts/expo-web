@@ -1,6 +1,14 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-import { Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
+});
 
 export default class AppLoading extends React.Component {
   _isMounted: boolean;
@@ -47,7 +55,7 @@ export default class AppLoading extends React.Component {
 
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <Text>Loading...</Text>
       </View>
     );
