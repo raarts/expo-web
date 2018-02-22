@@ -1,4 +1,5 @@
 import moment from 'moment';
+import 'moment-timezone';
 
 const Util = {
   getCurrentDeviceCountryAsync: async () => {
