@@ -17,7 +17,7 @@
     "precommit": "lint-staged",
     "prerelease": "yarn test && yarn compile",
     "release": "node ./scripts/release/publish.js",
-    "postrelease": "yarn website:release && yarn benchmarks:release",
+    "postrelease": "echo no postrelease done",
     "test": "yarn flow && yarn lint:check"
   },
   "devDependencies": {
