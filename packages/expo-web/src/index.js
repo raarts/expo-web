@@ -17,6 +17,7 @@ import Constants from './exports/Constants';
 import Permissions from './exports/Permissions';
 import Notifications from './exports/Notifications';
 import Util from './exports/Util';
+import Localization from './exports/Localization';
 import WebBrowser from './exports/WebBrowser';
 
 export {
@@ -38,5 +39,6 @@ export {
   Permissions,
   Notifications,
   Util,
+  Localization,
   WebBrowser
 };
