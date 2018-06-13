@@ -9,6 +9,7 @@ import EvilIcons from './exports/EvilIcons';
 import Feather from './exports/Feather';
 import FontAwesome from './exports/FontAwesome';
 import Foundation from './exports/Foundation';
+import MaterialIcons from './exports/MaterialIcons';
 import MaterialCommunityIcons from './exports/MaterialCommunityIcons';
 import Octicons from './exports/Octicons';
 import SimpleLineIcons from './exports/SimpleLineIcons';
@@ -31,6 +32,7 @@ export {
   Feather,
   FontAwesome,
   Foundation,
+  MaterialIcons,
   MaterialCommunityIcons,
   Octicons,
   SimpleLineIcons,
