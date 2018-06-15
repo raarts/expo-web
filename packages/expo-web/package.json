@@ -33,5 +33,6 @@
     "react-native-web",
     "expo",
     "web"
-  ]
+  ],
+  "version": "0.0.14"
 }
