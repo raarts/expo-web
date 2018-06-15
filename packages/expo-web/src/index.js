@@ -1,4 +1,5 @@
 // components
+import DangerZone from './exports/DangerZone';
 import DeviceInfo from './exports/DeviceInfo';
 import AppLoading from './exports/AppLoading';
 import Asset from './exports/Asset';
@@ -22,6 +23,7 @@ import Localization from './exports/Localization';
 import WebBrowser from './exports/WebBrowser';
 
 export {
+  DangerZone,
   DeviceInfo,
   AppLoading,
   Asset,
